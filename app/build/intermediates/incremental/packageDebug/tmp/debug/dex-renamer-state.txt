@@ -1,0 +1,4 @@
+#Sun Jul 03 04:15:50 IST 2022
+base.0=C\:\\Users\\tanis\\AndroidStudioProjects\\Android Attendance\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
