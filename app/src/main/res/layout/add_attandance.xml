@@ -23,9 +23,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="85dp"
         android:layout_toRightOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/spinner1"
+        android:text="Branch"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,25 +52,31 @@
         android:id="@+id/spinnerSE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/spinneryear"
         android:layout_alignLeft="@+id/spinneryear"
-        android:layout_below="@+id/spinneryear" />
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="19dp" />
 
     <Spinner
         android:id="@+id/spinneryear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
         android:layout_alignLeft="@+id/spinner1"
-        android:layout_below="@+id/spinner1" />
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="24dp" />
 
     <EditText
         android:id="@+id/DateEditText"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/DateImageButton"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="6dp"
         android:layout_toLeftOf="@+id/spinnerSE"
         android:background="#ffffff"
         android:editable="false"
-        android:ems="10" >
+        android:ems="10">
 
         <requestFocus />
     </EditText>
@@ -68,21 +85,22 @@
         android:id="@+id/DateImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/spinnerSE"
         android:layout_below="@+id/spinnerSE"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="22dp"
+        android:layout_alignLeft="@+id/spinnerSE"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="26dp"
         android:cropToPadding="true"
         android:src="@drawable/calendar_icon" />
 
     <Button
         android:id="@+id/buttonsubmit"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="match_parent"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/DateImageButton"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="0dp"
         android:background="@drawable/roundedbutton"
         android:text="Add Attendance" />
 
@@ -92,7 +110,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignTop="@+id/spinnerSE"
-        android:layout_marginTop="20dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="9dp"
         android:text="Subject"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
