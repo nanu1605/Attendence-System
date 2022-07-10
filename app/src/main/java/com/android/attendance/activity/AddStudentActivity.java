@@ -26,7 +26,6 @@ public class AddStudentActivity extends Activity {
 	Button registerButton;
 	EditText textFirstName;
 	EditText textLastName;
-
 	EditText textcontact;
 	EditText textaddress;
 	Spinner spinnerbranch,spinneryear;
